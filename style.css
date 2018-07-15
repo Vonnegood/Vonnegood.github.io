@@ -1,0 +1,122 @@
+/* General formatting */
+
+.heading {
+    color: teal;
+    font-weight: bold;
+    padding-bottom:30px
+}
+
+body {
+    background-color:lightgray;
+    color: #504b4b;
+}
+
+#logo {
+    color: white;
+    background-color: teal;
+    margin-left:40px;    
+}
+
+.elem {
+    margin: 20px;
+    background-color: white;
+    padding: 60px;
+}
+
+.sum {
+    font-size: 120%;
+    line-height: 160%    
+}
+
+#bimg {
+    height: 80%;
+    width: 80%
+}
+
+.pimg {
+    height: 40%;
+    width: 40%
+}
+
+.imagegrid {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+@media( max-width: 800px)
+.smallpic {
+
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+
+
+.smallpic {
+    float: left;
+    width: 45%;
+    height: 45%;
+    margin: 1.66%
+}
+
+#copyright {
+    color: white
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 15px;
+    line-height: 60px;
+    background: teal
+}
+
+.panel-footer {
+    background-color: teal;
+    height: 15px
+}
+
+.copyright-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    line-height: 60px;
+    background: rgb(48, 48, 48)
+}
+
+.pic {
+    height: 100%;
+    width:100%;
+
+}
+
+#nav-select {
+    display:none
+}
+
+@media only screen and (max-width : 840px ){
+    [class*= "col-"]{
+        width:100%;
+    }
+
+@media (max-width: 480px) {
+.navbar-nav li {
+    padding: 10px;
+    display: none;
+}
+
+#logo {
+    margin-left:10%
+}
+
+.navbar {
+    background-color: teal
+}
+
+#nav-select {
+    display: inline-block;
+}
